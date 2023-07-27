@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    background: linear-gradient(135deg, #840feb, #0ad618);
+}
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+  body * {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff
+  }
+
+  .container {
+    min-width: 470px;
+    height: 320px;
+    background-color: #2a0079;
+    padding: 30px 40px 30px 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+    .container h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .input-string {
+        display: flex;
+        padding: 20px 0px;
+        gap: 50px;
+    }
+
+    .input-field {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field label {
+        font-weight: bold;
+        margin-bottom: 18px;
+        font-size: 18px;
+    }
+
+    .input-field input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #f1f1f1;
+        font-size: 18px;
+        border-radius: 2px;
+        padding: 5px;
+
+    }
+
+    #checkButton {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 16px;
+        border-radius: 9px;
+        background: #d5f365;
+        color: #4b0497;
+        border: none;
+        font-family: inherit;
+        font-size: 18px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    #checkButton:hover {
+        box-shadow: 7px 5px 56px -14px #840feb;
+}
+    #checkButton:active {
+            transform: scale(0.97);
+            box-shadow: 7px 5px 56px -10px #C3D900;
+           }
+           
+    #result {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 16px;
+        font-size: 20px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #2a0079;
+        padding: 10px;
+        text-align: center;
+
+    }
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+
