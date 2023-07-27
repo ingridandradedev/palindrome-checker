@@ -19,7 +19,7 @@ Projeto desenvolvido através do curso que realizei na plataforma FreeCodeCamp.o
 <br>
 <p align="center">
 Veja a prévia abaixo:
-  <img alt="projeto DevLinks" src="./.vscode/assets/preview.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/palindrome-checker-preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -49,9 +49,6 @@ O Palindrome Checker é um simples programinha web desenvolvido para verificar s
 ## 💻 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para fazer fork deste projeto, criar novos recursos, corrigir bugs ou melhorar a interface.
-
-- [Acesse o projeto finalizado da Rockeseat, online](https://maykbrito.github.io/devlinks)
-
 
 ## :memo: Licença
 
